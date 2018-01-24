@@ -10,11 +10,12 @@
     <form action = '' method = "submit" class ="main-form" role = "main">
       <fieldset class ='js-search-input'>
         <h2>Search Youtube Video by Title</h2>
-        <label for = 'search'></label>
-        <input type = "text" id = 'search' class = "search-text" placeholder="Enter a video title" required >
+        <label for = 'search' id = "lbl-search"></label>
+        <input type = "text" id = 'search' class = "search-text" 
+                placeholder="Enter a video title" required aria-label ="lbl-search">
         <button class ="search-button">Search</button>
       </fieldset>
-      <section class = "search-results" role = "results">
+      <section class = "search-results" role = "note">
         <label class ="search-topic" role = 'note' aria-live ='assertive' hidden>Results</label>
         <div class = "result"></div>
       </section>

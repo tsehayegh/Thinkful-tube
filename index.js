@@ -50,7 +50,8 @@ function displayResult(searchResultData){
   $('.result').empty();
   searchResultData.items.map(function(item, index) {
     $('.result').append(`<div class ="video-info">
-      <iframe src = 'https://www.youtube.com/embed/${item.id.videoId}'></iframe>
+      <iframe src = 'https://www.youtube.com/embed/${item.id.videoId}' 
+              title = ${item.id.videoId}></iframe>
       <ul>
         <li><strong>Title:</strong> ${item.snippet.title}</li>
         <li><strong>By:</strong> ${item.snippet.channelTitle} 
