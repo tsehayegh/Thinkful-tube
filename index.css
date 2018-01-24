@@ -1,0 +1,55 @@
+* {
+ box-sizing: border-box;
+}
+.main-form{
+  margin: auto;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.js-search-input{
+  border:0 white solid;
+}
+
+input,
+button{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.video-info {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;  
+  padding-top: 10px;
+}
+
+.video-info ul{
+  display: inline-block;
+  padding-left: 10px;
+  position: relative;
+  margin-top: 0;
+}
+
+.video-info li{
+  list-style: none;
+  margin-top: 5px;
+}
+
+.search-topic {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.navigate {
+  width: 50%;
+  margin: 0 auto;
+}
+.next-button  {
+  float: right;
+}
+
+.hidden {
+  display: none;
+}

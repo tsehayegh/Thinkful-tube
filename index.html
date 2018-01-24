@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Thinkful Tube</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form action = '' method = "submit" class ="main-form" role = "main">
+      <fieldset class ='js-search-input'>
+        <h2>Search Youtube Video by Title</h2>
+        <label for = 'search'></label>
+        <input type = "text" id = 'search' class = "search-text" placeholder="Enter a video title" required >
+        <button class ="search-button">Search</button>
+      </fieldset>
+      <section class = "search-results" role = "results">
+        <label class ="search-topic" role = 'note' aria-live ='assertive' hidden>Results</label>
+        <div class = "result"></div>
+      </section>
+    </form>
+    <nav class = "navigate" role ="navigation">
+      <button class = "prev-button" hidden>Previous Page</button>
+      <button class = "next-button" hidden>Next Page</button>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
